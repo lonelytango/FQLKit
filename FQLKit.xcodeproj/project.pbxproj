@@ -14,7 +14,6 @@
 		E5ED72071B863EE80051FCA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5ED72061B863EE80051FCA6 /* Images.xcassets */; };
 		E5ED720A1B863EE80051FCA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5ED72081B863EE80051FCA6 /* LaunchScreen.xib */; };
 		E5ED72161B863EE80051FCA6 /* FQLKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED72151B863EE80051FCA6 /* FQLKitTests.swift */; };
-		E5ED72211B8641010051FCA6 /* FQLKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED72201B8641010051FCA6 /* FQLKit.swift */; };
 		F1C68347ED8C42A3037AE7C4 /* Pods_FQLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9F479C842C55E2FB3BD476 /* Pods_FQLKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		E5ED720F1B863EE80051FCA6 /* FQLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5ED72141B863EE80051FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5ED72151B863EE80051FCA6 /* FQLKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQLKitTests.swift; sourceTree = "<group>"; };
-		E5ED72201B8641010051FCA6 /* FQLKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQLKit.swift; sourceTree = "<group>"; };
 		FF87C554073B56095170AEF0 /* Pods-FQLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQLKit/Pods-FQLKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 		E5ED71FC1B863EE80051FCA6 /* FQLKit */ = {
 			isa = PBXGroup;
 			children = (
-				E5ED721F1B8640E80051FCA6 /* Source */,
 				E5ED71FF1B863EE80051FCA6 /* AppDelegate.swift */,
 				E5ED72011B863EE80051FCA6 /* ViewController.swift */,
 				E5ED72031B863EE80051FCA6 /* Main.storyboard */,
@@ -145,14 +142,6 @@
 				E5ED72141B863EE80051FCA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E5ED721F1B8640E80051FCA6 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				E5ED72201B8641010051FCA6 /* FQLKit.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +344,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5ED72021B863EE80051FCA6 /* ViewController.swift in Sources */,
-				E5ED72211B8641010051FCA6 /* FQLKit.swift in Sources */,
 				E5ED72001B863EE80051FCA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

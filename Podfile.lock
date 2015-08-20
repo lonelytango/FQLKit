@@ -15,14 +15,25 @@ PODS:
   - FBSDKCoreKit/no-arc (4.5.1):
     - Bolts (~> 1.1)
     - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.5.1):
+    - FBSDKCoreKit
+  - FBSDKMessengerShareKit (1.3.0)
+  - FBSDKShareKit (4.5.1):
+    - FBSDKCoreKit
 
 DEPENDENCIES:
   - Alamofire (~> 1.3)
-  - FBSDKCoreKit
+  - FBSDKCoreKit (= 4.5.1)
+  - FBSDKLoginKit (= 4.5.1)
+  - FBSDKMessengerShareKit (= 1.3.0)
+  - FBSDKShareKit (= 4.5.1)
 
 SPEC CHECKSUMS:
   Alamofire: e4ab637e3195b645c814b87a652373439e59f2a4
   Bolts: d176cb1e0012175589e389a9db49b85e27787576
   FBSDKCoreKit: f335eaf6865e1e1597dee1debfb533045500da47
+  FBSDKLoginKit: 225cc9a388a92916ee3f3bb14422017b6e44b65b
+  FBSDKMessengerShareKit: 4a38dbd3564f5da459ea35b636e6766f7067a830
+  FBSDKShareKit: 642034ac9f30793dfd897851b724bb4281750266
 
 COCOAPODS: 0.38.2
